@@ -7,3 +7,11 @@ end, {})
 vim.api.nvim_create_user_command("FontIndexDecrement", function ()
   stuff.fontIndexDecrement()
 end, {})
+
+vim.api.nvim_create_user_command("FontSizeIncrement", function ()
+  stuff.fontSizeIncrement()
+end, {})
+
+vim.api.nvim_create_user_command("FontSizeDecrement", function ()
+  stuff.fontSizeDecrement()
+end, {})
